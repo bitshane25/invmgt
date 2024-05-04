@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 35px;
+    background-color: blue;
+}
+
+.navigation{
+    width: 15%;
+    background-color: skyblue;
+    display: inline-block;
+    min-height: 90.4vh;
+}
+.navigation a {
+    display: block;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.content {
+    width: 85%;
+    position: absolute;
+    right: 0;
+    height: 90.4vh;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.btn_add{
+    display: inline-block;
+}
+
+.search_form{
+    display: inline-block;
+}
+
+.label{
+    margin: 10px;
+}
+
+.material_records table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.material_records {
+    width: 100%;
+}
+.material_records th { 
+    background-color: slategrey;
+
+}
+.material_records table {
+    width: 75%;
+    margin: 3% auto;
+}
+
+.material_records table td, th{
+    padding: 10px;
+}

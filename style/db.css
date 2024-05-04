@@ -1,0 +1,46 @@
+/* dashboard */
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.contain{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 680px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.item{
+    width: 20%;
+    position: relative;
+    height: 230px;
+    background-color: #E5E4E2;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.item img{
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.number{
+    background-color: #808080;
+    padding: 0 20px;
+    color: white;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-weight: bold;
+    border-radius: 50px;
+}
